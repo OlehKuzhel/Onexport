@@ -142,7 +142,7 @@ template { display: none; }
 /* @author Никита Иванов (исходные пиктограммы флагов), nickivanov.ru (nickivanov@nickivanov.ru) */
 /* Набор распостраняется на условиях лицензии CC-BY-SA */
 /* Эти летом я был: в <i class="flag-HN"></i> Гондурасе, <i class="flag-LI"></i> Лихтенштейне, и <i class="flag-SE"></i> Швеции. */
-.flag-NOWHERE, .flag-ABKHAZIA, .flag-AD, .flag-AE, .flag-AF, .flag-AG, .flag-AI, .flag-AL, .flag-AM, .flag-AN, .flag-AO, .flag-AQ, .flag-AR, .flag-AS, .flag-AT, .flag-AU, .flag-AW, .flag-AX, .flag-AZ, .flag-BA, .flag-BB, .flag-BD, .flag-BE, .flag-BF, .flag-BG, .flag-BH, .flag-BI, .flag-BJ, .flag-BL, .flag-BM, .flag-BN, .flag-BO, .flag-BR, .flag-BS, .flag-BT, .flag-BV, .flag-BW, .flag-BY, .flag-BZ, .flag-CA, .flag-CC, .flag-CD, .flag-CF, .flag-CG, .flag-CH, .flag-CI, .flag-CK, .flag-CL, .flag-CM, .flag-CN, .flag-CO, .flag-CR, .flag-CU, .flag-CV, .flag-CX, .flag-CY, .flag-CZ, .flag-DE, .flag-DJ, .flag-DK, .flag-DM, .flag-DO, .flag-DZ, .flag-EC, .flag-EE, .flag-EG, .flag-EH, .flag-ER, .flag-ES-CE, .flag-ES-ML, .flag-ES, .flag-ET, .flag-EU, .flag-FI, .flag-FJ, .flag-FK, .flag-FM, .flag-FO, .flag-FR, .flag-GA, .flag-GB, .flag-GD, .flag-GE, .flag-GF, .flag-GG, .flag-GH, .flag-GI, .flag-GL, .flag-GM, .flag-GN, .flag-GP, .flag-GQ, .flag-GR, .flag-GS, .flag-GT, .flag-GU, .flag-GW, .flag-GY, .flag-HK, .flag-HM, .flag-HN, .flag-HR, .flag-HT, .flag-HU, .flag-IC, .flag-ID, .flag-IE, .flag-IL, .flag-IM, .flag-IN, .flag-IO, .flag-IQ, .flag-IR, .flag-IS, .flag-IT, .flag-JE, .flag-JM, .flag-JO, .flag-JP, .flag-KE, .flag-KG, .flag-KH, .flag-KI, .flag-KM, .flag-KN, .flag-KOSOVO, .flag-KP, .flag-KR, .flag-KW, .flag-KY, .flag-KZ, .flag-LA, .flag-LB, .flag-LC, .flag-LI, .flag-LK, .flag-LR, .flag-LS, .flag-LT, .flag-LU, .flag-LV, .flag-LY, .flag-MA, .flag-MC, .flag-MD, .flag-ME, .flag-MF, .flag-MG, .flag-MH, .flag-MK, .flag-ML, .flag-MM, .flag-MN, .flag-MO, .flag-MP, .flag-MQ, .flag-MR, .flag-MS, .flag-MT, .flag-MU, .flag-MV, .flag-MW, .flag-MX, .flag-MY, .flag-MZ, .flag-NA, .flag-NC, .flag-NE, .flag-NF, .flag-NG, .flag-NI, .flag-NKR, .flag-NL, .flag-NO, .flag-NP, .flag-NR, .flag-NU, .flag-NZ, .flag-OM, .flag-PA, .flag-PE, .flag-PF, .flag-PG, .flag-PH, .flag-PK, .flag-PL, .flag-PM, .flag-PN, .flag-PR, .flag-PS, .flag-PT, .flag-PW, .flag-PY, .flag-QA, .flag-RE, .flag-RO, .flag-RS, .flag-RU, .flag-RW, .flag-SA, .flag-SB, .flag-SC, .flag-SD, .flag-SE, .flag-SG, .flag-SH, .flag-SI, .flag-SJ, .flag-SK, .flag-SL, .flag-SM, .flag-SN, .flag-SO, .flag-SOUTH-OSSETIA, .flag-SR, .flag-SS, .flag-ST, .flag-SV, .flag-SY, .flag-SZ, .flag-TC, .flag-TD, .flag-TF, .flag-TG, .flag-TH, .flag-TJ, .flag-TK, .flag-TL, .flag-TM, .flag-TN, .flag-TO, .flag-TR, .flag-TT, .flag-TV, .flag-TW, .flag-TZ, .flag-UA, .flag-UG, .flag-UM, .flag-US, .flag-UY, .flag-UZ, .flag-VA, .flag-VC, .flag-VE, .flag-VG, .flag-VI, .flag-VN, .flag-VU, .flag-WF, .flag-WS, .flag-YE, .flag-YT, .flag-ZA, .flag-ZM, .flag-ZW { background: url("../img/flags.png") no-repeat 0 9px; display: -moz-inline-box; display: inline-block; vertical-align: baseline; position: relative; overflow: hidden; width: 16px; height: 9px; font-size: 0; line-height: 0; margin: 0; padding: 0; }
+.flag-NOWHERE, .flag-ABKHAZIA, .flag-AD, .flag-AE, .flag-AF, .flag-AG, .flag-AI, .flag-AL, .flag-AM, .flag-AN, .flag-AO, .flag-AQ, .flag-AR, .flag-AS, .flag-AT, .flag-AU, .flag-AW, .flag-AX, .flag-AZ, .flag-BA, .flag-BB, .flag-BD, .flag-BE, .flag-BF, .flag-BG, .flag-BH, .flag-BI, .flag-BJ, .flag-BL, .flag-BM, .flag-BN, .flag-BO, .flag-BR, .flag-BS, .flag-BT, .flag-BV, .flag-BW, .flag-BY, .flag-BZ, .flag-CA, .flag-CC, .flag-CD, .flag-CF, .flag-CG, .flag-CH, .flag-CI, .flag-CK, .flag-CL, .flag-CM, .flag-CN, .flag-CO, .flag-CR, .flag-CU, .flag-CV, .flag-CX, .flag-CY, .flag-CZ, .flag-DE, .flag-DJ, .flag-DK, .flag-DM, .flag-DO, .flag-DZ, .flag-EC, .flag-EE, .flag-EG, .flag-EH, .flag-ER, .flag-ES-CE, .flag-ES-ML, .flag-ES, .flag-ET, .flag-EU, .flag-FI, .flag-FJ, .flag-FK, .flag-FM, .flag-FO, .flag-FR, .flag-GA, .flag-GB, .flag-GD, .flag-GE, .flag-GF, .flag-GG, .flag-GH, .flag-GI, .flag-GL, .flag-GM, .flag-GN, .flag-GP, .flag-GQ, .flag-GR, .flag-GS, .flag-GT, .flag-GU, .flag-GW, .flag-GY, .flag-HK, .flag-HM, .flag-HN, .flag-HR, .flag-HT, .flag-HU, .flag-IC, .flag-ID, .flag-IE, .flag-IL, .flag-IM, .flag-IN, .flag-IO, .flag-IQ, .flag-IR, .flag-IS, .flag-IT, .flag-JE, .flag-JM, .flag-JO, .flag-JP, .flag-KE, .flag-KG, .flag-KH, .flag-KI, .flag-KM, .flag-KN, .flag-KOSOVO, .flag-KP, .flag-KR, .flag-KW, .flag-KY, .flag-KZ, .flag-LA, .flag-LB, .flag-LC, .flag-LI, .flag-LK, .flag-LR, .flag-LS, .flag-LT, .flag-LU, .flag-LV, .flag-LY, .flag-MA, .flag-MC, .flag-MD, .flag-ME, .flag-MF, .flag-MG, .flag-MH, .flag-MK, .flag-ML, .flag-MM, .flag-MN, .flag-MO, .flag-MP, .flag-MQ, .flag-MR, .flag-MS, .flag-MT, .flag-MU, .flag-MV, .flag-MW, .flag-MX, .flag-MY, .flag-MZ, .flag-NA, .flag-NC, .flag-NE, .flag-NF, .flag-NG, .flag-NI, .flag-NKR, .flag-NL, .flag-NO, .flag-NP, .flag-NR, .flag-NU, .flag-NZ, .flag-OM, .flag-PA, .flag-PE, .flag-PF, .flag-PG, .flag-PH, .flag-PK, .flag-PL, .flag-PM, .flag-PN, .flag-PR, .flag-PS, .flag-PT, .flag-PW, .flag-PY, .flag-QA, .flag-RE, .flag-RO, .flag-RS, .flag-RU, .flag-RW, .flag-SA, .flag-SB, .flag-SC, .flag-SD, .flag-SE, .flag-SG, .flag-SH, .flag-SI, .flag-SJ, .flag-SK, .flag-SL, .flag-SM, .flag-SN, .flag-SO, .flag-SOUTH-OSSETIA, .flag-SR, .flag-SS, .flag-ST, .flag-SV, .flag-SY, .flag-SZ, .flag-TC, .flag-TD, .flag-TF, .flag-TG, .flag-TH, .flag-TJ, .flag-TK, .flag-TL, .flag-TM, .flag-TN, .flag-TO, .flag-TR, .flag-TT, .flag-TV, .flag-TW, .flag-TZ, .flag-UA, .flag-UG, .flag-UM, .flag-US, .flag-UY, .flag-UZ, .flag-VA, .flag-VC, .flag-VE, .flag-VG, .flag-VI, .flag-VN, .flag-VU, .flag-WF, .flag-WS, .flag-YE, .flag-YT, .flag-ZA, .flag-ZM, .flag-ZW { background: url("../../img/flags.png") no-repeat 0 9px; display: -moz-inline-box; display: inline-block; vertical-align: baseline; position: relative; overflow: hidden; width: 16px; height: 9px; font-size: 0; line-height: 0; margin: 0; padding: 0; }
 
 .flag-ABKHAZIA { background-position: 0 0px; }
 
@@ -5654,7 +5654,7 @@ p.bold { font-weight: 600; }
 
 .link--mored { font-weight: 700; font-size: 1rem; color: #EA2127; position: absolute; bottom: 2rem; right: 1rem; padding-right: 1.7rem; }
 
-.link--mored:after { position: absolute; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); right: 2px; background: url(../img/mod.svg) no-repeat center center; -webkit-background-size: 1.2rem 1.2rem; background-size: 1.2rem 1.2rem; width: 1.2rem; height: 1.2rem; content: ''; -webkit-transition: 0.24s ease-in-out; -o-transition: 0.24s ease-in-out; transition: 0.24s ease-in-out; }
+.link--mored:after { position: absolute; top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); right: 2px; background: url(../../img/mod.svg) no-repeat center center; -webkit-background-size: 1.2rem 1.2rem; background-size: 1.2rem 1.2rem; width: 1.2rem; height: 1.2rem; content: ''; -webkit-transition: 0.24s ease-in-out; -o-transition: 0.24s ease-in-out; transition: 0.24s ease-in-out; }
 
 .link--mored:hover:after { -webkit-transform: translateY(-50%) translateX(2px); -ms-transform: translateY(-50%) translateX(2px); transform: translateY(-50%) translateX(2px); }
 
@@ -5800,7 +5800,7 @@ p.bold { font-weight: 600; }
 
 .checkbox + label:before { content: ''; position: absolute; top: 50%; margin-top: -.8rem; left: 0; width: 1.6rem; height: 1.6rem; -webkit-border-radius: 5px; border-radius: 5px; background: #fff; border: 1px solid #EA2127; -webkit-transition: .2s; -o-transition: .2s; transition: .2s; }
 
-.checkbox + label:after { content: ''; position: absolute; top: 50%; margin-top: -.8rem; left: 0; -webkit-border-radius: 5px; border-radius: 5px; width: 1.6rem; height: 1.6rem; background: url(../img/check.svg) no-repeat center center, #EA2127; -webkit-background-size: 8px 6px; background-size: 8px 6px; -webkit-transition: .2s; -o-transition: .2s; transition: .2s; opacity: 0; }
+.checkbox + label:after { content: ''; position: absolute; top: 50%; margin-top: -.8rem; left: 0; -webkit-border-radius: 5px; border-radius: 5px; width: 1.6rem; height: 1.6rem; background: url(../../img/check.svg) no-repeat center center, #EA2127; -webkit-background-size: 8px 6px; background-size: 8px 6px; -webkit-transition: .2s; -o-transition: .2s; transition: .2s; opacity: 0; }
 
 .checkbox.error + label:before { background: #ea2127; }
 
@@ -5850,7 +5850,7 @@ p.bold { font-weight: 600; }
 
 .section-header .header-content__bittons .btn + .btn { margin-left: 2.5rem; }
 
-.section-main { background: url(../img/bg/bg1.png) no-repeat left center; -webkit-background-size: 60vw 100%; background-size: 60vw 100%; height: 73rem; }
+.section-main { background: url(../../img/bg/bg1.png) no-repeat left center; -webkit-background-size: 60vw 100%; background-size: 60vw 100%; height: 73rem; }
 
 .section-main .lines-bg span { background: rgba(255, 255, 255, 0.1); }
 
@@ -5868,7 +5868,7 @@ p.bold { font-weight: 600; }
 
 .section-main .main-content .btn { margin-top: 1.5rem; }
 
-.section-what { padding-top: 0; padding-bottom: 6rem; background: url(../img/bg/bg2.png) no-repeat right bottom 50rem, #fff; -webkit-background-size: 60.2rem 42.5rem, cover; background-size: 60.2rem 42.5rem, cover; }
+.section-what { padding-top: 0; padding-bottom: 6rem; background: url(../../img/bg/bg2.png) no-repeat right bottom 50rem, #fff; -webkit-background-size: 60.2rem 42.5rem, cover; background-size: 60.2rem 42.5rem, cover; }
 
 .section-what .what { background: #fff; padding: 5.5rem 9.5rem 14rem 9.5rem; -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1); -webkit-transform: translateY(-2.5rem); -ms-transform: translateY(-2.5rem); transform: translateY(-2.5rem); }
 
@@ -5876,7 +5876,7 @@ p.bold { font-weight: 600; }
 
 .section-what .what-items { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: stretch; -webkit-align-items: stretch; -ms-flex-align: stretch; align-items: stretch; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
 
-.section-what .what-item { -webkit-transition: 0.24s ease-in-out; -o-transition: 0.24s ease-in-out; transition: 0.24s ease-in-out; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; max-width: 44.5rem; width: 100%; z-index: 3; position: relative; background: url(../img/back.png) no-repeat bottom center; -webkit-background-size: 100% 90%; background-size: 100% 90%; }
+.section-what .what-item { -webkit-transition: 0.24s ease-in-out; -o-transition: 0.24s ease-in-out; transition: 0.24s ease-in-out; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; max-width: 44.5rem; width: 100%; z-index: 3; position: relative; background: url(../../img/back.png) no-repeat bottom center; -webkit-background-size: 100% 90%; background-size: 100% 90%; }
 
 .section-what .what-item .title { color: #fff; text-align: center; width: 100%; }
 
@@ -5976,7 +5976,7 @@ p.bold { font-weight: 600; }
 
 .section-how .how-content__list { margin: 3rem 0 0 0; padding: 0; list-style: none; counter-reset: heading; position: relative; }
 
-.section-how .how-content__list .linef { position: absolute; top: 20px; left: .75px; width: 1.1rem; height: 0; background: url(../img/lineaf.png) repeat-y center center; -webkit-background-size: 1.1rem 10.5rem; background-size: 1.1rem 10.5rem; z-index: -1; }
+.section-how .how-content__list .linef { position: absolute; top: 20px; left: .75px; width: 1.1rem; height: 0; background: url(../../img/lineaf.png) repeat-y center center; -webkit-background-size: 1.1rem 10.5rem; background-size: 1.1rem 10.5rem; z-index: -1; }
 
 .section-how .how-content__list .linef.hUp { -webkit-animation-timing-function: linear; animation-timing-function: linear; -webkit-animation-name: hUp; animation-name: hUp; -webkit-animation-delay: 0s; animation-delay: 0s; -webkit-animation-duration: 2.75s; animation-duration: 2.75s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
 
@@ -5990,7 +5990,7 @@ p.bold { font-weight: 600; }
 
 .section-how .how-content__list li span { padding: 1rem 1.3rem; height: auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; max-width: 52rem; width: 100%; background: #fff; -webkit-box-shadow: 0 0 5rem rgba(0, 0, 0, 0.1); box-shadow: 0 0 5rem rgba(0, 0, 0, 0.1); font-size: 1.4rem; line-height: 1.6rem; color: #000; }
 
-.section-delivery { background: url(../img/bg/del2.png) no-repeat left top, rgba(196, 196, 196, 0.3); -webkit-background-size: cover; background-size: cover; }
+.section-delivery { background: url(../../img/bg/del2.png) no-repeat left top, rgba(196, 196, 196, 0.3); -webkit-background-size: cover; background-size: cover; }
 
 .section-delivery .find-bg { padding: 9.5rem 0 17rem 0; }
 
@@ -6034,7 +6034,7 @@ p.bold { font-weight: 600; }
 
 .section-delivery .delivery-calc__select .jq-selectbox__trigger { border: none; }
 
-.section-delivery .delivery-calc__select .jq-selectbox__trigger-arrow { width: 1.5rem; height: 1rem; right: 1rem; border: none; background: url(../img/trigger.svg) no-repeat center center; -webkit-background-size: contain; background-size: contain; top: 50%; -webkit-transition: 0.24s ease-in-out; -o-transition: 0.24s ease-in-out; transition: 0.24s ease-in-out; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+.section-delivery .delivery-calc__select .jq-selectbox__trigger-arrow { width: 1.5rem; height: 1rem; right: 1rem; border: none; background: url(../../img/trigger.svg) no-repeat center center; -webkit-background-size: contain; background-size: contain; top: 50%; -webkit-transition: 0.24s ease-in-out; -o-transition: 0.24s ease-in-out; transition: 0.24s ease-in-out; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
 
 .section-delivery .delivery-calc__select .jq-selectbox__select { height: auto; padding: 1.45rem 1rem; line-height: 1; background: #fff; border: none; -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); -webkit-border-radius: 0; border-radius: 0; font-family: "Roboto", sans-serif; font-size: 1.6rem; }
 
@@ -6180,7 +6180,7 @@ p.bold { font-weight: 600; }
 
 .section-market .market-sliders__tab .our-slide h4 { text-align: center; margin: 0 0; }
 
-.section-partners { background: url(../img/bg/partners.png) no-repeat center center; -webkit-background-size: cover; background-size: cover; padding: 4rem 0 3rem 0; }
+.section-partners { background: url(../../img/bg/partners.png) no-repeat center center; -webkit-background-size: cover; background-size: cover; padding: 4rem 0 3rem 0; }
 
 .section-partners .partners .title--section { margin: 0 auto; }
 
@@ -6626,7 +6626,7 @@ p.bold { font-weight: 600; }
 
 .section-carsresult .carsresult-search .form-rows .jq-selectbox__trigger { border: none; }
 
-.section-carsresult .carsresult-search .form-rows .jq-selectbox__trigger-arrow { width: 1.5rem; height: 1rem; right: 1rem; border: none; background: url(../img/trigger.svg) no-repeat center center; -webkit-background-size: contain; background-size: contain; top: 50%; -webkit-transition: 0.24s ease-in-out; -o-transition: 0.24s ease-in-out; transition: 0.24s ease-in-out; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+.section-carsresult .carsresult-search .form-rows .jq-selectbox__trigger-arrow { width: 1.5rem; height: 1rem; right: 1rem; border: none; background: url(../../img/trigger.svg) no-repeat center center; -webkit-background-size: contain; background-size: contain; top: 50%; -webkit-transition: 0.24s ease-in-out; -o-transition: 0.24s ease-in-out; transition: 0.24s ease-in-out; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
 
 .section-carsresult .carsresult-search .form-rows .jq-selectbox__select { height: auto; padding: 1.45rem 1rem; line-height: 1; background: #fff; border: none; -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); -webkit-border-radius: 0; border-radius: 0; font-family: "Roboto", sans-serif; font-size: 1.6rem; }
 
@@ -7002,7 +7002,7 @@ p.bold { font-weight: 600; }
 
 .popup-retale .jq-selectbox__trigger { border: none; }
 
-.popup-retale .jq-selectbox__trigger-arrow { width: 1.5rem; height: 1rem; right: 1rem; border: none; background: url(../img/trigger.svg) no-repeat center center; -webkit-background-size: contain; background-size: contain; top: 50%; -webkit-transition: 0.24s ease-in-out; -o-transition: 0.24s ease-in-out; transition: 0.24s ease-in-out; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+.popup-retale .jq-selectbox__trigger-arrow { width: 1.5rem; height: 1rem; right: 1rem; border: none; background: url(../../img/trigger.svg) no-repeat center center; -webkit-background-size: contain; background-size: contain; top: 50%; -webkit-transition: 0.24s ease-in-out; -o-transition: 0.24s ease-in-out; transition: 0.24s ease-in-out; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
 
 .popup-retale .jq-selectbox__select { height: auto; padding: 1.45rem 2rem 1.45rem 2rem; line-height: 1; background: #fff; border: none; -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); -webkit-border-radius: 0; border-radius: 0; font-family: "Roboto", sans-serif; font-size: 1.6rem; }
 
@@ -7040,7 +7040,7 @@ p.bold { font-weight: 600; }
 
 .popup-corporate .form-block .jq-selectbox__trigger { border: none; }
 
-.popup-corporate .form-block .jq-selectbox__trigger-arrow { width: 1.5rem; height: 1rem; right: 1rem; border: none; background: url(../img/trigger.svg) no-repeat center center; -webkit-background-size: contain; background-size: contain; top: 50%; -webkit-transition: 0.24s ease-in-out; -o-transition: 0.24s ease-in-out; transition: 0.24s ease-in-out; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+.popup-corporate .form-block .jq-selectbox__trigger-arrow { width: 1.5rem; height: 1rem; right: 1rem; border: none; background: url(../../img/trigger.svg) no-repeat center center; -webkit-background-size: contain; background-size: contain; top: 50%; -webkit-transition: 0.24s ease-in-out; -o-transition: 0.24s ease-in-out; transition: 0.24s ease-in-out; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
 
 .popup-corporate .form-block .jq-selectbox__select { height: auto; padding: 1.45rem 4rem 1.45rem 2rem; line-height: 1; background: #fff; border: none; -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); -webkit-border-radius: 0; border-radius: 0; font-family: "Roboto", sans-serif; font-size: 1.6rem; }
 
