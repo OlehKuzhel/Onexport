@@ -5874,6 +5874,10 @@ p.bold { font-weight: 600; }
 
 .section-main .main-content .btn { margin-top: 1.5rem; }
 
+.section-main.other { -webkit-background-size: 65vw 65vw; background-size: 65vw; }
+
+.section-main.other .main-content { max-width: 65rem; }
+
 .section-what { padding-top: 0; padding-bottom: 6rem; background: url(../../img/bg/bg2.png) no-repeat right bottom 50rem, #fff; -webkit-background-size: 60.2rem 42.5rem, cover; background-size: 60.2rem 42.5rem, cover; }
 
 .section-what .what { background: #fff; padding: 5.5rem 9.5rem 14rem 9.5rem; -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1); -webkit-transform: translateY(-2.5rem); -ms-transform: translateY(-2.5rem); transform: translateY(-2.5rem); }
