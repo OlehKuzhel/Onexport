@@ -5764,6 +5764,10 @@ p.bold { font-weight: 600; }
 
 .btn--action:hover { background: #2D2E3E; }
 
+.btn--many { font-family: "Montserrat", sans-serif; border: 0.1rem solid #ffffff; background: #ea2127; width: 24rem; padding: 1.5rem 0; margin: 4rem auto 0 auto; text-align: center; font-size: 1.4rem; font-weight: 400; color: #fff; }
+
+.btn--many:hover { background: #2D2E3E; }
+
 .btn--submit { color: #000; text-align: center; width: 100%; border: none; padding: .75rem 0; font-size: 1.1rem; font-weight: 600; background: #fff; }
 
 .btn--submit:hover { background: #EA2127; color: #fff; }
@@ -6000,11 +6004,11 @@ p.bold { font-weight: 600; }
 
 .section-delivery .find-row form { width: 50rem; }
 
-.section-delivery .delivery { -webkit-transform: translateY(-7rem); -ms-transform: translateY(-7rem); transform: translateY(-7rem); width: 100%; background: #fff; padding: 4rem 2.5rem 11rem 2.5rem; -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1); position: relative; }
+.section-delivery .delivery { -webkit-transform: translateY(-7rem); -ms-transform: translateY(-7rem); transform: translateY(-7rem); width: 100%; background: #fff; padding: 4rem 2.5rem 7rem 2.5rem; -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1); position: relative; }
 
 .section-delivery .delivery .title--section { margin: 0 auto; }
 
-.section-delivery .delivery-abs { position: absolute; bottom: 0; left: 50%; -webkit-transform: translate(-50%, 30%); -ms-transform: translate(-50%, 30%); transform: translate(-50%, 30%); width: 24rem; height: 5.8rem; }
+.section-delivery .delivery-abs { position: absolute; bottom: 0; left: 50%; -webkit-transform: translate(-50%, 70%); -ms-transform: translate(-50%, 70%); transform: translate(-50%, 70%); width: 24rem; height: 5.8rem; }
 
 .section-delivery .delivery-bg { padding-bottom: 6rem; }
 
