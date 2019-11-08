@@ -1,0 +1,12 @@
+-----CONTAINER TRACKING iFRAME-----
+<div class="tracking-block">
+	<script type="text/javascript" src="https://www.searates.com/js/platform/container-tracking.js"></script>
+	<div id="container-tracking-wrapper"></div>
+	<script>
+		document.getElementById('container-tracking-wrapper').innerHTML =
+			'<iframe id="container-tracking" src="https://sirius.searates.com/tracking?' + window.location.href.split('?')[
+			1] +
+			'" width="100%" height="680px" frameborder="0" align="middle" scrolling="No" allowfullscreen="Yes"></iframe>';
+	</script>
+</div>
+-----END CONTAINER TRACKING iFRAME-----

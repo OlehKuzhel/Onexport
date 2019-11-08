@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang=ru>
+   <head>
+      <meta charset=UTF-8>
+      <title>Alego.agency</title>
+      <meta content=ru http-equiv=content-language>
+      <meta content="Alego.agency" name=description>
+      <meta content="Alego.agency" name=keywords>
+      <meta content="Alego.agency" property=og:title>
+      <meta content=website property=og:type>
+      <meta content=img/title.jpg property=og:image>
+      <meta content="Alego.agency" property=og:description>
+      <meta content="width=device-width,user-scalable=no"name=viewport id=viewport>
+      <link href=favicon.ico rel="shortcut icon"type=image/x-icon>
+      <link href="css/main.css" rel="stylesheet">
+      <link href="css/media.css" rel="stylesheet">
+   </head>
+   <body >
+      <header class="section section-header">
+         <div class="wrapper">
+            <div class="header">
+               <a href="#" class="link link--logo"><img src="img/logo-main-white.png" alt="logo-main-white"></a>
+               <div class="header-content">
+                  <div class="header-content__select">
+                     <div class="header-content__select-tabs">
+                        <div class="header-content__select-tab">
+                           <div class="header-content__select-row">
+                              <a href="#" class="link link--lang" data-contry="GE">Geo</a>
+                              <a href="#" class="link link--lang" data-contry="GB">Eng</a>
+                              <a href="#" class="link link--lang" data-contry="UA">Ua</a>
+                              <a href="#" class="link link--lang" data-contry="AZ">Aze</a>
+                              <a href="#" class="link link--lang" data-contry="AM">Arm</a>
+                           </div>
+                        </div>
+                        <a href="#" class="link link--select">
+                           <svg viewBox="0 0 5 7" width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M.505 3.5c0-.125.048-.25.143-.347l3.01-3.01a.49.49 0 1 1 .694.694L1.688 3.5l2.663 2.663a.49.49 0 0 1-.693.693l-3.01-3.01A.489.489 0 0 1 .505 3.5z" fill="#fff"/>
+                           </svg>
+                           <i class="flag-RU"></i> <span>Country</span>
+                        </a>
+                     </div>
+                     <div class="header-content__select-tabs">
+                        <div class="header-content__select-tab">
+                           <div class="header-content__select-row">
+                              <a href="#" class="link link--lang" data-lang="GE">Geo</a>
+                              <a href="#" class="link link--lang" data-lang="GB">Eng</a>
+                              <a href="#" class="link link--lang" data-lang="UA">Ua</a>
+                              <a href="#" class="link link--lang" data-lang="AZ">Aze</a>
+                              <a href="#" class="link link--lang" data-lang="AM">Arm</a>
+                           </div>
+                        </div>
+                        <a href="#" class="link link--select">
+                           <svg viewBox="0 0 5 7" width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M.505 3.5c0-.125.048-.25.143-.347l3.01-3.01a.49.49 0 1 1 .694.694L1.688 3.5l2.663 2.663a.49.49 0 0 1-.693.693l-3.01-3.01A.489.489 0 0 1 .505 3.5z" fill="#fff"/>
+                           </svg>
+                           <i class="flag-RU"></i> <span>Language</span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="header-content__bittons">
+                     <a href="#" class="btn btn--action">Registration</a>
+                     <a href="#" class="btn btn--action">Login</a>
+                  </div>
+               </div>
+               <a href="#" class="link link--menu ">
+                  <svg viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="30" height="2" fill="white"/>
+                     <rect y="9" width="30" height="2" fill="white"/>
+                     <rect y="9" width="30" height="2" fill="white"/>
+                     <rect y="18" width="30" height="2" fill="white"/>
+                  </svg>
+               </a>
+            </div>
+         </div>
+      </header>
+      <section class="section section-carsresult ">
+         <div class="wrapper">
+            <div class="carsresult">
+            	<h2 class="title title--section">Search system for cars</h2>
+            	<div class="carsresult-vin">
+            		<form class="form-search" action="cars.php"  method="post">
+                        <div class="form-search__row">
+                           <input type="search" class="field field--search" id="search-vin" name="mycarvin" aria-label="Find a car by VIN code" placeholder="Enter VIN code" required>
+                           <button class="btn btn--search" type="submit">
+                              <span>Search</span>
+                              <svg viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M20.225 16.8l-4.588-4.59a8.831 8.831 0 0 1-2.652 2.652l4.589 4.589a1.874 1.874 0 1 0 2.651-2.651zM15.776 7.5a7.5 7.5 0 1 0-15.001 0 7.5 7.5 0 0 0 15 0zm-7.5 5.625A5.63 5.63 0 0 1 2.65 7.5a5.631 5.631 0 0 1 5.625-5.625A5.631 5.631 0 0 1 13.9 7.5a5.631 5.631 0 0 1-5.625 5.625z" fill="#fff"/>
+                                 <path d="M3.9 7.5h1.25a3.129 3.129 0 0 1 3.125-3.125v-1.25A4.38 4.38 0 0 0 3.9 7.5z" fill="#fff"/>
+                              </svg>
+                           </button>
+                        </div>
+                     </form>
+            	</div>
+            	
+            	<div class="carsresult-search">
+            		<h3 class="title title--thin">Select your desired vehicle parameters</h3>
+            		<form>
+            			<div class="form-rows">
+                              <div class="form-cols">
+                                 <div class="form-row">
+                                 	<p class="paragraph paragraph--label">Type</p>
+                                    <select class="select" name="type">
+		                              <option value="Опция 1">Опция 1</option>
+		                              <option value="Опция 2">Опция 2</option>
+		                              <option value="Опция 3">Опция 3</option>
+		                              <option value="Опция 4">Опция 4</option>
+		                              <option value="Опция 5">Опция 5</option>
+		                           </select>
+                                 </div>
+                                 <div class="form-row">
+                                 	<p class="paragraph paragraph--label">Model</p>
+                                    <select class="select" name="model">
+		                              <option value="Опция 1">Опция 1</option>
+		                              <option value="Опция 2">Опция 2</option>
+		                              <option value="Опция 3">Опция 3</option>
+		                              <option value="Опция 4">Опция 4</option>
+		                              <option value="Опция 5">Опция 5</option>
+		                           </select>
+                                 </div>
+                                 <div class="form-row">
+                                 	<p class="paragraph paragraph--label">Auction</p>
+                                 	<div class="form-row__check">
+                                    <div class="carsresult-radio">
+			                           <input type="checkbox" class="checkbox active" value="Ai" checked id="ai" name="ai" />
+			                           <label for="ai"><img src="img/partners/8.png" alt=""></label>
+			                        </div>
+			                        <div class="carsresult-radio">
+			                           <input type="checkbox" class="checkbox active" id="cop" checked value="Copart" name="cop" />
+			                           <label for="cop"><img src="img/partners/7.png" alt=""></label>
+			                        </div>
+			                    </div>
+                                 </div>
+                                 <div class="form-row">
+                                 	<p class="paragraph paragraph--label">Make</p>
+                                    <select class="select" name="make">
+		                              <option value="Опция 1">Опция 1</option>
+		                              <option value="Опция 2">Опция 2</option>
+		                              <option value="Опция 3">Опция 3</option>
+		                              <option value="Опция 4">Опция 4</option>
+		                              <option value="Опция 5">Опция 5</option>
+		                           </select>
+                                 </div>
+                                 <div class="form-row">
+                                 	<p class="paragraph paragraph--label">Year</p>
+                                 	<div class="form-row__content">
+                                 		<select class="select" data-placeholder="From" name="yearfrom">
+                                 			<option></option>
+			                              <option value="Опция 1">Опция 1</option>
+			                              <option value="Опция 2">Опция 2</option>
+			                              <option value="Опция 3">Опция 3</option>
+			                              <option value="Опция 4">Опция 4</option>
+			                              <option value="Опция 5">Опция 5</option>
+			                           </select>
+			                           <select class="select" data-placeholder="To" name="yearto">
+			                           	<option></option>
+			                              <option value="Опция 1">Опция 1</option>
+			                              <option value="Опция 2">Опция 2</option>
+			                              <option value="Опция 3">Опция 3</option>
+			                              <option value="Опция 4">Опция 4</option>
+			                              <option value="Опция 5">Опция 5</option>
+			                           </select>
+                                 	</div>
+                                 </div>
+                                 <div class="form-row">
+                                 	<p class="paragraph paragraph--label">Date</p>
+                                 	<div class="form-row__content">
+                                 		<select class="select" data-placeholder="From" name="datefrom">
+                                 			<option></option>
+			                              <option value="Опция 1">Опция 1</option>
+			                              <option value="Опция 2">Опция 2</option>
+			                              <option value="Опция 3">Опция 3</option>
+			                              <option value="Опция 4">Опция 4</option>
+			                              <option value="Опция 5">Опция 5</option>
+			                           </select>
+			                           <select class="select" data-placeholder="To" name="dateto">
+			                           	<option></option>
+			                              <option value="Опция 1">Опция 1</option>
+			                              <option value="Опция 2">Опция 2</option>
+			                              <option value="Опция 3">Опция 3</option>
+			                              <option value="Опция 4">Опция 4</option>
+			                              <option value="Опция 5">Опция 5</option>
+			                           </select>
+                                 	</div>
+                                 </div>
+                                    <button class="btn btn--submit btn--general" type="submit">Search</button>
+                              </div>
+                           </div>
+            		</form>
+            	</div>
+            </div>
+            <div class="carsresult-after">
+            	<p class="paragraph paragraph--result">
+            		12,367 cars found
+            	</p>
+               <div class="carsresult-other">
+                        <div class="carsresult-slide">
+                           <div class="carsresult-slide__content">
+                              <a href="#" class="car-photo"><img src="img/car.png" alt=""></a>
+                              <div class="carsresult-slide__row">
+                                 <div class="car-row">
+                                    <a href="#" class="title title--car">Mazda 3  2018</a>
+                                 </div>
+                                 <div class="car-row red">
+                                    <p class="car-price__key">
+                                       <span class="trim">28 000</span>$
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carsresult-slide">
+                           <div class="carsresult-slide__content">
+                              <a href="#" class="car-photo"><img src="img/car.png" alt=""></a>
+                              <div class="carsresult-slide__row">
+                                 <div class="car-row">
+                                    <a href="#" class="title title--car">toyota</a>
+                                 </div>
+                                 <div class="car-row red">
+                                    <p class="car-price__key">
+                                       <span class="trim">28 000</span>$
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carsresult-slide">
+                           <div class="carsresult-slide__content">
+                              <a href="#" class="car-photo"><img src="img/car.png" alt=""></a>
+                              <div class="carsresult-slide__row">
+                                 <div class="car-row">
+                                    <a href="#" class="title title--car">toyota</a>
+                                 </div>
+                                 <div class="car-row red">
+                                    <p class="car-price__key">
+                                       <span class="trim">28 000</span>$
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carsresult-slide">
+                           <div class="carsresult-slide__content">
+                              <a href="#" class="car-photo"><img src="img/car.png" alt=""></a>
+                              <div class="carsresult-slide__row">
+                                 <div class="car-row">
+                                    <a href="#" class="title title--car">toyota</a>
+                                 </div>
+                                 <div class="car-row red">
+                                    <p class="car-price__key">
+                                       <span class="trim">28 000</span>$
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carsresult-slide">
+                           <div class="carsresult-slide__content">
+                              <a href="#" class="car-photo"><img src="img/car.png" alt=""></a>
+                              <div class="carsresult-slide__row">
+                                 <div class="car-row">
+                                    <a href="#" class="title title--car">toyota</a>
+                                 </div>
+                                 <div class="car-row red">
+                                    <p class="car-price__key">
+                                       <span class="trim">28 000</span>$
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carsresult-slide">
+                           <div class="carsresult-slide__content">
+                              <a href="#" class="car-photo"><img src="img/car.png" alt=""></a>
+                              <div class="carsresult-slide__row">
+                                 <div class="car-row">
+                                    <a href="#" class="title title--car">toyota</a>
+                                 </div>
+                                 <div class="car-row red">
+                                    <p class="car-price__key">
+                                       <span class="trim">28 000</span>$
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carsresult-slide">
+                           <div class="carsresult-slide__content">
+                              <a href="#" class="car-photo"><img src="img/car.png" alt=""></a>
+                              <div class="carsresult-slide__row">
+                                 <div class="car-row">
+                                    <a href="#" class="title title--car">toyota</a>
+                                 </div>
+                                 <div class="car-row red">
+                                    <p class="car-price__key">
+                                       <span class="trim">28 000</span>$
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carsresult-slide">
+                           <div class="carsresult-slide__content">
+                              <a href="#" class="car-photo"><img src="img/car.png" alt=""></a>
+                              <div class="carsresult-slide__row">
+                                 <div class="car-row">
+                                    <a href="#" class="title title--car">toyota</a>
+                                 </div>
+                                 <div class="car-row red">
+                                    <p class="car-price__key">
+                                       <span class="trim">28 000</span>$
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        
+                        
+               </div>
+
+               <div class="carsresult-bottom">
+                  <a href="#" class="link link--pagin disable"><svg viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M0 11.974c0-.415.168-.83.503-1.147L11.063.868a1.794 1.794 0 0 1 2.433 0c.672.633.672 1.66 0 2.294l-9.344 8.812 9.344 8.811c.671.634.671 1.66 0 2.294a1.794 1.794 0 0 1-2.432 0L.504 13.12A1.571 1.571 0 0 1 0 11.974z" fill="#fff"></path>
+                              </svg></a>
+                  <ul class="news-pagination">
+                     <li class="news-pagination__item active"><a href="#">1</a></li>
+                     <li class="news-pagination__item"><a href="#">2</a></li>
+                     <li class="news-pagination__item"><a href="#">3</a></li>
+                     <li class="news-pagination__item"><a href="#">4</a></li>
+                     <li class="news-pagination__item dotts"><a href="#">...</a></li>
+                     <li class="news-pagination__item"><a href="#">53</a></li>
+                  </ul>
+                  <a href="#" class="link link--pagin"><svg viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M14 11.974c0 .415-.168.83-.504 1.146l-10.56 9.96a1.794 1.794 0 0 1-2.432 0 1.558 1.558 0 0 1 0-2.295l9.344-8.811L.504 3.162a1.557 1.557 0 0 1 0-2.294 1.794 1.794 0 0 1 2.432 0l10.56 9.959c.336.317.504.732.504 1.147z" fill="#fff"></path>
+                              </svg></a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="section section-footer">
+         <div class="wrapper">
+            <div class="footer">
+               <div class="footer-col">
+                  <a href="#" class="link link--logo"><img src="img/logo-main-white.png" alt=""></a>
+               </div>
+               <div class="footer-col">
+                  <h4 class="title title--footer">
+                     Menu
+                  </h4>
+                  <ul class="footer-menu">
+                     <li><a href="#" class="link link--footer">Cars</a></li>
+                     <li><a href="#" class="link link--footer">Calculator</a></li>
+                     <li><a href="#" class="link link--footer">News</a></li>
+                     <li><a href="#" class="link link--footer">About us</a></li>
+                     <li><a href="#" class="link link--footer">Contacts</a></li>
+                     <li><a href="#" class="link link--footer">FAQ</a></li>
+                  </ul>
+               </div>
+               <div class="footer-col">
+                  <h4 class="title title--footer">
+                     Subscribe
+                  </h4>
+                  <div class="footer-col__content">
+                     <form class="form-subscribe">
+                        <input type="email" class="field" name="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn--submit">Subscribe</button>
+                     </form>
+                  </div>
+               </div>
+               <div class="footer-col">
+                  <h4 class="title title--footer">
+                     We are in the<br> social networks
+                  </h4>
+                  <div class="footer-col__content">
+                     <div class="footer-social">
+                        <a href="#" class="link link--social"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="link link--social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="link link--social"><i class="fab fa-youtube"></i></a>
+                     </div>
+                     <a href="tel:+19733436282" class="link link--contact">
+                        <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#phonecall)">
+                              <path d="M9.644 12.162c-.499 0-1.102-.12-1.765-.362-1.454-.528-3.036-1.573-4.454-2.941C2.006 7.491.923 5.965.375 4.563c-.5-1.275-.5-2.322-.003-2.8.071-.07.144-.143.219-.22.453-.46.965-.977 1.644-.953.468.018.921.299 1.385.856 1.372 1.645.753 2.231.038 2.91l-.126.121c-.118.113-.339.636 1.719 2.62.672.648 1.244 1.122 1.702 1.41.288.18.804.453 1.015.25l.127-.125c.704-.688 1.312-1.283 3.016.039.578.448.868.884.888 1.336.027.655-.513 1.15-.99 1.587-.079.072-.155.142-.227.21-.246.239-.64.358-1.138.358zM2.187.979c-.483 0-.918.442-1.304.834-.077.078-.152.154-.226.226-.37.356-.333 1.293.095 2.388.529 1.351 1.58 2.828 2.959 4.158 1.379 1.33 2.909 2.343 4.31 2.853 1.135.413 2.107.448 2.476.092.074-.072.153-.144.235-.218.414-.38.884-.81.864-1.288-.014-.329-.262-.682-.737-1.05-1.42-1.101-1.817-.712-2.476-.068l-.13.126c-.314.304-.825.236-1.52-.199-.481-.302-1.076-.793-1.767-1.46-1.708-1.647-2.254-2.654-1.72-3.171l.13-.123c.669-.635 1.073-1.018-.07-2.389-.382-.457-.748-.696-1.088-.71h-.031z" fill="#fff"/>
+                           </g>
+                           <defs>
+                              <clipPath id="phonecall">
+                                 <path fill="#fff" transform="translate(0 .589)" d="M0 0h12v11.574H0z"/>
+                              </clipPath>
+                           </defs>
+                        </svg>
+                        <span>+1 (973) 343-6282</span>
+                     </a>
+                     <a href="mailto:onexport@gmail.com" class="link link--contact">
+                        <svg viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M9.716 8.586a.196.196 0 0 1-.132-.05L7.357 6.52a.182.182 0 0 1-.008-.264.198.198 0 0 1 .273-.008L9.85 8.264c.077.07.081.188.008.263a.196.196 0 0 1-.141.06zM2.284 8.587a.197.197 0 0 1-.141-.06.182.182 0 0 1 .008-.263L4.378 6.25c.078-.07.201-.067.274.008a.182.182 0 0 1-.009.263L2.416 8.536a.196.196 0 0 1-.132.05z" fill="#fff"/>
+                           <path d="M11.033 10.46H.967C.434 10.46 0 10.04 0 9.525V3.164c0-.514.434-.933.967-.933h10.066c.533 0 .967.419.967.933v6.362c0 .515-.434.933-.967.933zM.967 2.604c-.32 0-.58.25-.58.56v6.361c0 .309.26.56.58.56h10.066c.32 0 .58-.251.58-.56V3.164c0-.308-.26-.56-.58-.56H.967z" fill="#fff"/>
+                           <path d="M6 7.283c-.257 0-.515-.082-.71-.247L.32 2.856a.182.182 0 0 1-.019-.264.2.2 0 0 1 .273-.018l4.969 4.18a.745.745 0 0 0 .912 0l4.962-4.173a.199.199 0 0 1 .273.018.182.182 0 0 1-.019.264L6.71 7.036a1.106 1.106 0 0 1-.71.247z" fill="#fff"/>
+                        </svg>
+                        <span>onexport@gmail.com</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="footer-col">
+                  <h4 class="title title--footer">
+                     Title
+                  </h4>
+                  <div class="footer-col__content">
+                     <p class="any">Calculator</p>
+                     <p class="any">Search engine system</p>
+                     <p class="any">Search engine system of a car on the road by VIN</p>
+                     <p class="any">Container?</p>
+                  </div>
+               </div>
+               <div class="footer-col">
+                  <h4 class="title title--footer">
+                     Company Brief
+                  </h4>
+                  <div class="footer-col__content">
+                     <p class="any">We Deliver car to any port in USA or Canada</p>
+                     <p class="any">We are export experts</p>
+                     <p class="any">Affordable shiping worldwide</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <aside class="menu-mobile">
+         <div class="menu-row">
+            <div class="header-content__select-tabs">
+               <a href="#" class="link link--select">
+                  <svg viewBox="0 0 5 7" width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M.505 3.5c0-.125.048-.25.143-.347l3.01-3.01a.49.49 0 1 1 .694.694L1.688 3.5l2.663 2.663a.49.49 0 0 1-.693.693l-3.01-3.01A.489.489 0 0 1 .505 3.5z" fill="#fff"/>
+                  </svg>
+                  <i class="flag-RU"></i> <span>Country</span>
+               </a>
+               <!-- <div class="header-content__select-tab">
+                  <div class="header-content__select-row">
+                     <a href="#" class="link link--lang" data-contry="GE">Geo</a>
+                     <a href="#" class="link link--lang" data-contry="GB">Eng</a>
+                     <a href="#" class="link link--lang" data-contry="UA">Ua</a>
+                     <a href="#" class="link link--lang" data-contry="AZ">Aze</a>
+                     <a href="#" class="link link--lang" data-contry="AM">Arm</a>
+                  </div>
+                  </div> -->
+            </div>
+            <div class="header-content__select-tabs">
+               <a href="#" class="link link--select">
+                  <svg viewBox="0 0 5 7" width="5" height="7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M.505 3.5c0-.125.048-.25.143-.347l3.01-3.01a.49.49 0 1 1 .694.694L1.688 3.5l2.663 2.663a.49.49 0 0 1-.693.693l-3.01-3.01A.489.489 0 0 1 .505 3.5z" fill="#fff"/>
+                  </svg>
+                  <i class="flag-RU"></i> <span>Language</span>
+               </a>
+               <!--< div class="header-content__select-tab">
+                  <div class="header-content__select-row">
+                     <a href="#" class="link link--lang" data-lang="GE">Geo</a>
+                     <a href="#" class="link link--lang" data-lang="GB">Eng</a>
+                     <a href="#" class="link link--lang" data-lang="UA">Ua</a>
+                     <a href="#" class="link link--lang" data-lang="AZ">Aze</a>
+                     <a href="#" class="link link--lang" data-lang="AM">Arm</a>
+                  </div>
+                  </div> -->
+            </div>
+         </div>
+         <ul class="menu-list">
+            <li><a href="#" class="link link--go">Cars</a></li>
+            <li><a href="#" class="link link--go">Calculator</a></li>
+            <li><a href="#" class="link link--go">News</a></li>
+            <li><a href="#" class="link link--go">About us</a></li>
+            <li><a href="#" class="link link--go">Contacts</a></li>
+            <li><a href="#" class="link link--go">FAQ</a></li>
+         </ul>
+         <div class="menu-btn">
+            <a href="#" class="btn btn--action">Registration</a>
+            <a href="#" class="btn btn--action">Login</a>
+         </div>
+         <div class="menu-social">
+            <a href="#" class="link link--social"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="link link--social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="link link--social"><i class="fab fa-youtube"></i></a>
+         </div>
+      </aside>
+      <script src="https://www.youtube.com/iframe_api"></script>
+      <script src=js/libs.min.js></script>
+      <script src=js/main.js></script>
+   </body>
+</html>

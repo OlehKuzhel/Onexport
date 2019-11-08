@@ -1,0 +1,13 @@
+-----FILTER TRACKING -----
+<div class="tracking-filter">
+	<form class="search-form" method="GET" action="tracking.html">
+		<label class="filter-label">
+			<input type="text" name="container" placeholder="Shipment, B/L, Container no.">
+		</label>
+		<button id="tracking" class="btn" type="submit">Search</button>
+	</form>
+</div>
+
+form action="tracking.html" --- write the path to the file where the tracking application is installed in action="the path to the file";
+If you have any problems in data transfer, you can try to change the type of data transfer method "method="POST/GET".
+-----END FILTER TRACKING-----
