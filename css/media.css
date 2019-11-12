@@ -80,11 +80,12 @@
   .section-what .videos-pagination .swiper-pagination-bullet:after { content: none; }
   .section-what .videos-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active { -webkit-box-shadow: none; box-shadow: none; width: 1.9rem; height: 1.9rem; background: #EA2127; }
   .section-what .what { -webkit-transform: translateY(-2rem); -ms-transform: translateY(-2rem); transform: translateY(-2rem); padding: 3rem 1rem 1rem 1rem; }
+  .section-what .what--prev { left: -1.5rem; }
+  .section-what .what--next { right: -1.5rem; }
   .section-what .what .title--section { margin-bottom: 2.5rem; text-align: center; }
   .section-what .what .title--sub { font-size: 1.8rem; }
   .section-what .what-items { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
-  .section-what .what-item { -webkit-box-align: stretch; -webkit-align-items: stretch; -ms-flex-align: stretch; align-items: stretch; max-width: 100%; }
-  .section-what .what-item:nth-child(2) { margin: 2.5rem 0; }
+  .section-what .what-item { -webkit-box-align: stretch; -webkit-align-items: stretch; -ms-flex-align: stretch; align-items: stretch; }
   .section-what .what-item .paragraph { margin: 1.5rem 0 .5rem 0; }
   .section-what .what-item__content { margin-top: -10rem; padding: 2.5rem 2.5rem 2rem 2.5rem; width: 100%; }
   .section-what .what-item__content .btns-row { margin-top: 1.5rem; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }

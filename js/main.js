@@ -283,7 +283,23 @@ $(document).ready(function($) {
         $('[name=carpopup]').parent().find('[data-price=' + $choose + ']').css('display', 'block')
     });
 
-
+     var sliderWh = new Swiper('.what-items', {
+        speed: 800,
+        slidesPerView: 3,
+        spaceBetween: 15,
+        // loop: true,
+        navigation: {
+            nextEl: '.what--next',
+            prevEl: '.what--prev',
+        },
+        breakpoints: {
+            789: {
+                simulateTouch: true,
+                // spaceBetween: 15,
+                slidesPerView: 1,
+            },
+        }
+    });
 
 
     var sliderCan = new Swiper('.partners-slider', {
