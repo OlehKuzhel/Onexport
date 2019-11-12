@@ -5890,7 +5890,7 @@ p.bold { font-weight: 600; }
 
 .section-what .what-item .paragraph { margin: 1rem 0 2.5rem 0; color: #fff; line-height: 2.4rem; }
 
-.section-what .what-item__content { max-width: 29rem; width: 100%; margin: -17.5rem auto 0 auto; padding: 2rem 3rem 2rem 3rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; height: auto; -webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1; background: #3E4852; }
+.section-what .what-item__content { max-width: 29rem; width: 100%; margin: -17.5rem auto 0 auto; padding: 2rem 3rem 2rem 3rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; height: auto; -webkit-box-flex: 1; -webkit-flex-grow: 1; -ms-flex-positive: 1; flex-grow: 1; background: #2D2E3E; }
 
 .section-what .what-item__content .paragraph { height: 20rem; }
 
@@ -5900,11 +5900,11 @@ p.bold { font-weight: 600; }
 
 .section-what .what-item__content .btns-row .link + .link { margin-top: 0; color: #E5272A; background: #fff; font-size: 1.6rem; font-weight: 700; -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); }
 
-.section-what .what-item__content .btns-row .link + .link:hover { background: #2D2E3E; color: #fff; }
+.section-what .what-item__content .btns-row .link + .link:hover { background: #E5272A; color: #fff; }
 
 .section-what .what-item__content .btns-row .link:only-child { margin-top: 0; color: #E5272A; background: #fff; font-size: 1.6rem; font-weight: 700; -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); }
 
-.section-what .what-item__content .btns-row .link:only-child:hover { background: #2D2E3E; color: #fff; }
+.section-what .what-item__content .btns-row .link:only-child:hover { background: #E5272A; color: #fff; }
 
 .section-what .what-item__content .btns-row .link:nth-child(1):hover { color: #E5272A; background: #fff; font-size: 1.6rem; font-weight: 700; -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1); }
 
