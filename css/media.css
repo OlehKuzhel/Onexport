@@ -197,6 +197,29 @@
   .section-footer .footer-col:nth-child(4) .title--footer br { display: none; }
   .section-footer .footer-col:nth-child(5) { display: none; }
   .section-footer .footer-col:nth-child(6) { display: none; }
+  .section-costdel { padding-top: 6rem; }
+  .section-costdel .costdel-map { margin-top: 5rem; }
+  .section-costdel .costdel .btn { margin-top: 5rem; }
+  .section-costdel .costdel-calc { margin-top: 2rem; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; width: 100%; }
+  .section-costdel .costdel-calc .paragraph--name { margin-bottom: 2rem; }
+  .section-costdel .costdel-calc .paragraph--cost { padding: 2.5rem; }
+  .section-costdel .costdel-calc__total { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; padding: 2.5rem; }
+  .section-costdel .costdel-calc__total-side { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
+  .section-costdel .costdel-calc__total-side .paragraph { text-align: left; margin-bottom: 0; }
+  .section-costdel .costdel-calc__total-side .amount { text-align: left; }
+  .section-costdel .costdel-calc__total-side:nth-child(1) { margin-bottom: 2rem; }
+  .section-costdel .costdel-calc__total-side:nth-child(1) .amount { text-align: left; }
+  .section-costdel .costdel-calc__total-side:nth-child(1) .paragraph { text-align: left; }
+  .section-costdel .costdel-calc__total-side:nth-child(2) { margin-bottom: 2rem; }
+  .section-costdel .costdel-calc__total-side:nth-child(2) .amount { text-align: left; }
+  .section-costdel .costdel-calc__total-side:nth-child(2) .paragraph { text-align: left; }
+  .section-costdel .costdel-calc__select { margin-bottom: 3rem; max-width: 100%; }
+  .section-costdel .costdel-calc__radios { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
+  .section-costdel .costdel-calc__price { margin-right: 0; margin-bottom: 3rem; max-width: 100%; }
+  .section-costdel .costdel-calc__price .costdel-calc__col { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
+  .section-costdel .costdel-calc__price .costdel-calc__radio:last-child { margin-top: 0; }
+  .section-costdel .costdel-calc__load .costdel-calc__row { padding-top: 0; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+  .section-costdel .costdel-calc__load .costdel-calc__radio { width: 45%; margin-bottom: 2.5rem; }
   .section-lot { padding-top: 6rem; }
   .section-lot .wrapper:first-child { padding: 0; }
   .section-lot .lot-detail .paragraph { -webkit-clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%); clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%); }
