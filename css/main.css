@@ -6470,9 +6470,9 @@ p.bold { font-weight: 600; }
 
 .section-costdel .costdel-calc__select .jq-selectbox__select-text.placeholder { color: rgba(0, 0, 0, 0.6); font-size: 1.6rem; }
 
-.section-costdel .costdel-calc__price { max-width: 16rem; width: 100%; margin-right: 3rem; }
+.section-costdel .costdel-calc__price { max-width: 18rem; width: 100%; margin-right: 3rem; }
 
-.section-costdel .costdel-calc__price .costdel-calc__col { padding: 2.5rem; -webkit-box-shadow: 0px 0px 50px rgba(188, 37, 37, 0.2); box-shadow: 0px 0px 50px rgba(188, 37, 37, 0.2); background: #fff; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; }
+.section-costdel .costdel-calc__price .costdel-calc__col { padding: 2.5rem 3.5rem; -webkit-box-shadow: 0px 0px 50px rgba(188, 37, 37, 0.2); box-shadow: 0px 0px 50px rgba(188, 37, 37, 0.2); background: #fff; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; }
 
 .section-costdel .costdel-calc__price .costdel-calc__radio:last-child { margin-top: 2.5rem; }
 
@@ -6482,7 +6482,7 @@ p.bold { font-weight: 600; }
 
 .section-costdel .costdel-calc__radios { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
 
-.section-costdel .costdel-calc__radio { width: 12rem; }
+.section-costdel .costdel-calc__radio { width: 12rem; height: 7.9rem; }
 
 .section-costdel .costdel-calc__radio .limg { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; width: 4.2rem; height: 4.2rem; margin-bottom: .5rem; }
 
@@ -6966,6 +6966,8 @@ p.bold { font-weight: 600; }
 
 .delivery-social.fixed { position: fixed; bottom: 10px; z-index: 7; left: 50%; -webkit-transform: translate(-50%, 0); -ms-transform: translate(-50%, 0); transform: translate(-50%, 0); }
 
+.jq-selectbox li, .jq-select-multiple li { white-space: normal; }
+
 .fancybox-container .fancybox-bg { background: #000; opacity: 0; }
 
 .fancybox-container.fancybox-is-open .fancybox-bg { opacity: .8; }
@@ -7062,7 +7064,7 @@ p.bold { font-weight: 600; }
 
 .popup-calcmodal .calcmodal-content .paragraph span { font-size: 3rem; color: #EA2127; }
 
-.popup-calcmodal .calcmodal-list { list-style: none; padding: 2rem; margin: 0; }
+.popup-calcmodal .calcmodal-list { list-style: none; padding: 0 2rem; max-width: 30rem; margin: 3.5rem auto; }
 
 .popup-calcmodal .calcmodal-list li { font-size: 1.6rem; font-weight: 700; line-height: 2.4rem; }
 

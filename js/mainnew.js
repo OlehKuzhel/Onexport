@@ -806,7 +806,7 @@ $(document).ready(function($) {
     $('[name=vehicle_type]').on('change', function(event) {
         event.preventDefault();
         $val = $(this).val();
-        var text = $(this).parent().find('.ltext').text();
+        var text = $('[name=vehicle_type]').parent().find('.ltext').html();
         $('.calcmodal-list__shipping span').html(text)
 
         $('#calcmodal input[name=shipping]').val($val)

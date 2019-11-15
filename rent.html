@@ -82,40 +82,40 @@
 
 					<div class="costdel-calc__select">
                      	<div class="paragraph paragraph--name">Select destination</div>
-                     	<select class="select" name="calc_data_auctions" data-placeholder="Select auction">
+                     	<select class="select" name="auction" data-placeholder="Select auction">
                            <option></option>
-                           <option class="1">auctions1</option>
-                           <option class="2">auctions</option>
-                           <option class="3">auctions3</option>
-                           <option class="4">auctions4</option>
+                           <option value="auctions1">auctions1</option>
+                           <option value="auctions2">auctions</option>
+                           <option value="auctions3">auctions3</option>
+                           <option value="auctions4">auctions4</option>
                         </select>
-                        <select class="select" name="calc_data1_select" data-placeholder="Choose location">
+                        <select class="select" name="location" data-placeholder="Choose location">
                            <option></option>
-                           <option class="1">loc1</option>
-                           <option class="2">loc2</option>
-                           <option class="3">loc3</option>
-                           <option class="4">loc4</option>
+                           <option value="loc1">loc1</option>
+                           <option value="loc2">loc2</option>
+                           <option value="loc3">loc3</option>
+                           <option value="loc4">loc4</option>
                         </select>
-                        <select class="select" name="calc_data2_select" data-placeholder="Select exif port">
+                        <select class="select" name="port1" data-placeholder="Select exif port">
                            <option></option>
-                           <option class="1.794">loc1</option>
-                           <option class="2">loc2</option>
-                           <option class="3">loc3</option>
-                           <option class="4">loc4</option>
+                           <option value="loc1">loc1</option>
+                           <option value="loc2">loc2</option>
+                           <option value="loc3">loc3</option>
+                           <option value="loc4">loc4</option>
                         </select>
-                        <select class="select" name="calc_data_country" data-placeholder="Choose country">
+                        <select class="select" name="country" data-placeholder="Choose country">
                            <option></option>
-                           <option class="1.794">loc1</option>
-                           <option class="2">loc2</option>
-                           <option class="3">loc3</option>
-                           <option class="4">loc4</option>
+                           <option value="loc1">loc1</option>
+                           <option value="loc2">loc2</option>
+                           <option value="loc3">loc3</option>
+                           <option value="loc4">loc4</option>
                         </select>
-                        <select class="select" name="calc_data_city" data-placeholder="Select Port/City">
+                        <select class="select" name="port2" data-placeholder="Select Port/City">
                            <option></option>
-                           <option class="1.794">loc1</option>
-                           <option class="2">loc2</option>
-                           <option class="3">loc3</option>
-                           <option class="4">loc4</option>
+                           <option value="loc1">loc1</option>
+                           <option value="loc2">loc2</option>
+                           <option value="loc3">loc3</option>
+                           <option value="loc4">loc4</option>
                         </select>
                      </div>
 					<div class="costdel-calc__content">
@@ -125,11 +125,11 @@
                         <p class="paragraph paragraph--name">Price (per one car):</p>
                         <div class="costdel-calc__col">
                            <div class="costdel-calc__radio">
-                              <input type="radio" value="4 cars cont. (sedan)" class="radio" id="pr1" name="loadtype" />
+                              <input type="radio" value="4 cars cont. (sedan)" class="radio" id="pr1" name="vehicle_type" />
                               <label for="pr1"><span class="limg"><img src="img/rent/1.svg" alt=""></span><span class="ltext">4 cars cont.<br>(sedan)</span></label>
                            </div>
                            <div class="costdel-calc__radio">
-                              <input type="radio" value="3 cars cont. (SUV)" class="radio" id="pr2" name="loadtype" />
+                              <input type="radio" value="3 cars cont. (SUV)" class="radio" id="pr2" name="vehicle_type" />
                               <label for="pr2"><span class="limg"><img src="img/rent/2.svg" alt=""></span><span class="ltext">3 cars cont. <br>(SUV)</span></label>
                            </div>
                         </div>
@@ -138,29 +138,29 @@
                         <p class="paragraph paragraph--name">Load type:</p>
                         <div class="costdel-calc__row">
                            <div class="costdel-calc__radio">
-                              <input type="radio" value="Medium Duty Truck" class="radio" id="lt1" name="loadtype" />
+                              <input type="radio" value="Medium Duty Truck" class="radio" id="lt1" name="vehicle_type" />
                               <label for="lt1"><span class="limg"><img src="img/rent/3.svg" alt=""></span><span class="ltext">Medium Duty Truck</span></label>
                            </div>
                            <div class="costdel-calc__radio">
-                              <input type="radio" value="Van" class="radio" id="lt2" name="loadtype" />
+                              <input type="radio" value="Van" class="radio" id="lt2" name="vehicle_type" />
                               <label for="lt2"><span class="limg"><img src="img/rent/5.svg" alt=""></span><span class="ltext">Van</span></label>
                            </div>
                            <div class="costdel-calc__radio">
-                              <input type="radio" value="Motorcycles" class="radio" id="lt3" name="loadtype" />
+                              <input type="radio" value="Motorcycles" class="radio" id="lt3" name="vehicle_type" />
                               <label for="lt3"><span class="limg"><img src="img/rent/7.svg" alt=""></span><span class="ltext">Motorcycles</span></label>
                            </div>
                            <div class="costdel-calc__radio">
-                              <input type="radio" value="Truck" class="radio" id="lt4" name="loadtype" />
+                              <input type="radio" value="Truck" class="radio" id="lt4" name="vehicle_type" />
                               <label for="lt4"><span class="limg"><img src="img/rent/9.svg" alt=""></span><span class="ltext">Truck</span></label>
                            </div>
                        </div>
                        <div class="costdel-calc__row">
                            <div class="costdel-calc__radio">
-                              <input type="radio" value="Bob Cat" class="radio" id="lt5" name="loadtype" />
+                              <input type="radio" value="Bob Cat" class="radio" id="lt5" name="vehicle_type" />
                               <label for="lt5"><span class="limg"><img src="img/rent/4.svg" alt=""></span><span class="ltext">Bob Cat</span></label>
                            </div>
                            <div class="costdel-calc__radio">
-                              <input type="radio" value="Quadrocycle" class="radio" id="lt6" name="loadtype" />
+                              <input type="radio" value="Quadrocycle" class="radio" id="lt6" name="vehicle_type" />
                               <label for="lt6"><span class="limg"><img src="img/rent/6.svg" alt=""></span><span class="ltext">Quadrocycle</span></label>
                            </div>
                            <div class="costdel-calc__radio">
@@ -372,9 +372,9 @@
                </div>
                <form class="form-check" data-form="sendnormal">
                	<input type="hidden" name="auctions">
-               	<input type="hidden" name="location">
+               	<input type="hidden" name="selected_location">
                	<input type="hidden" name="exifport">
-               	<input type="hidden" name="country">
+               	<input type="hidden" name="selected_country">
                	<input type="hidden" name="portcity">
                	<input type="hidden" name="shiping">
                   <div class="form-rows">
