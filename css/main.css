@@ -7044,6 +7044,28 @@ p.bold { font-weight: 600; }
 
 .popup-reg .form-check .btn--general { margin-top: 2.5rem; margin-left: auto; margin-right: 0; }
 
+.popup-calcmodal { max-width: 42rem; width: 100%; }
+
+.popup-calcmodal .popup-content { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
+
+.popup-calcmodal .popup-content .title { -webkit-clip-path: polygon(0 0, 87.5% 0%, 100% 100%, 0% 100%); clip-path: polygon(0 0, 87.5% 0%, 100% 100%, 0% 100%); }
+
+.popup-calcmodal .form-check .form-cols { max-width: 100%; }
+
+.popup-calcmodal .form-check .btn { max-width: 100%; width: 100%; }
+
+.popup-calcmodal .form-check .btn:before { -webkit-transform: translateX(-25%); -ms-transform: translateX(-25%); transform: translateX(-25%); }
+
+.popup-calcmodal .calcmodal-content .paragraph { text-align: center; font-size: 2.4rem; font-weight: 700; }
+
+.popup-calcmodal .calcmodal-content .paragraph span { font-size: 3rem; color: #EA2127; }
+
+.popup-calcmodal .calcmodal-list { list-style: none; padding: 2rem; margin: 0; }
+
+.popup-calcmodal .calcmodal-list li { font-size: 1.6rem; font-weight: 700; line-height: 2.4rem; }
+
+.popup-calcmodal .calcmodal-list li span { font-weight: 400; }
+
 .popup-login { max-width: 35rem; }
 
 .popup-login .popup-content { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }

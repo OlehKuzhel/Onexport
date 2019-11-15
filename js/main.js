@@ -803,6 +803,55 @@ $(document).ready(function($) {
       pass.attr('type', pass.attr('type') === 'password' ? 'text' : 'password');
     });
 
+    $('[name=loadtype]').on('change', function(event) {
+        event.preventDefault();
+        $val = $(this).val()
+        $('.calcmodal-list__shipping span').text($val)
+
+        $('[name=shipping]').val($val)
+                
+    });
+    $('[name=calc_data_auctions]').on('change', function(event) {
+        event.preventDefault();
+        $val = $(this).val()
+        $('.calcmodal-list__from .fr').text($val)
+
+        $('[name=auctions]').val($val)
+                
+    });
+    $('[name=calc_data1_select]').on('change', function(event) {
+        event.preventDefault();
+        $val = $(this).val()
+        $('.calcmodal-list__from .tw').text($val)
+
+        $('[name=location]').val($val)
+                
+    });
+    $('[name=calc_data2_select]').on('change', function(event) {
+        event.preventDefault();
+        $val = $(this).val()
+        $('.calcmodal-list__to span').text($val)
+
+        $('[name=exifport]').val($val)
+                
+    });
+    $('[name=calc_data_country]').on('change', function(event) {
+        event.preventDefault();
+        $val = $(this).val()
+        $('.calcmodal-list__shipto .fr').text($val)
+
+        $('[name=country]').val($val)
+                
+    });
+    $('[name=calc_data_city]').on('change', function(event) {
+        event.preventDefault();
+        $val = $(this).val()
+        $('.calcmodal-list__shipto .tw').text($val)
+
+        $('[name=portcity]').val($val)
+                
+    });
+
 
 
 });

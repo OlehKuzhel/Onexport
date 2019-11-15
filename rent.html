@@ -77,7 +77,7 @@
          <div class="wrapper">
             <div class="costdel wow fadeIn">
                <h2 class="title title--section">Delivery cost calculator</h2>
-               <form action="any" >
+               <!-- <form action="any" > -->
                <div class="costdel-calc">
 
 					<div class="costdel-calc__select">
@@ -103,14 +103,14 @@
                            <option class="3">loc3</option>
                            <option class="4">loc4</option>
                         </select>
-                        <select class="select" name="country" data-placeholder="Choose country">
+                        <select class="select" name="calc_data_country" data-placeholder="Choose country">
                            <option></option>
                            <option class="1.794">loc1</option>
                            <option class="2">loc2</option>
                            <option class="3">loc3</option>
                            <option class="4">loc4</option>
                         </select>
-                        <select class="select" name="city" data-placeholder="Select Port/City">
+                        <select class="select" name="calc_data_city" data-placeholder="Select Port/City">
                            <option></option>
                            <option class="1.794">loc1</option>
                            <option class="2">loc2</option>
@@ -125,11 +125,11 @@
                         <p class="paragraph paragraph--name">Price (per one car):</p>
                         <div class="costdel-calc__col">
                            <div class="costdel-calc__radio">
-                              <input type="radio" class="radio" id="pr1" name="auctions" />
+                              <input type="radio" value="4 cars cont. (sedan)" class="radio" id="pr1" name="loadtype" />
                               <label for="pr1"><span class="limg"><img src="img/rent/1.svg" alt=""></span><span class="ltext">4 cars cont.<br>(sedan)</span></label>
                            </div>
                            <div class="costdel-calc__radio">
-                              <input type="radio" class="radio" id="pr2" name="auctions" />
+                              <input type="radio" value="3 cars cont. (SUV)" class="radio" id="pr2" name="loadtype" />
                               <label for="pr2"><span class="limg"><img src="img/rent/2.svg" alt=""></span><span class="ltext">3 cars cont. <br>(SUV)</span></label>
                            </div>
                         </div>
@@ -138,37 +138,37 @@
                         <p class="paragraph paragraph--name">Load type:</p>
                         <div class="costdel-calc__row">
                            <div class="costdel-calc__radio">
-                              <input type="radio" class="radio" id="lt1" name="loadtype" />
+                              <input type="radio" value="Medium Duty Truck" class="radio" id="lt1" name="loadtype" />
                               <label for="lt1"><span class="limg"><img src="img/rent/3.svg" alt=""></span><span class="ltext">Medium Duty Truck</span></label>
                            </div>
                            <div class="costdel-calc__radio">
-                              <input type="radio" class="radio" id="lt2" name="loadtype" />
+                              <input type="radio" value="Van" class="radio" id="lt2" name="loadtype" />
                               <label for="lt2"><span class="limg"><img src="img/rent/5.svg" alt=""></span><span class="ltext">Van</span></label>
                            </div>
                            <div class="costdel-calc__radio">
-                              <input type="radio" class="radio" id="lt3" name="loadtype" />
+                              <input type="radio" value="Motorcycles" class="radio" id="lt3" name="loadtype" />
                               <label for="lt3"><span class="limg"><img src="img/rent/7.svg" alt=""></span><span class="ltext">Motorcycles</span></label>
                            </div>
                            <div class="costdel-calc__radio">
-                              <input type="radio" class="radio" id="lt4" name="loadtype" />
+                              <input type="radio" value="Truck" class="radio" id="lt4" name="loadtype" />
                               <label for="lt4"><span class="limg"><img src="img/rent/9.svg" alt=""></span><span class="ltext">Truck</span></label>
                            </div>
                        </div>
                        <div class="costdel-calc__row">
                            <div class="costdel-calc__radio">
-                              <input type="radio" class="radio" id="lt5" name="loadtype" />
+                              <input type="radio" value="Bob Cat" class="radio" id="lt5" name="loadtype" />
                               <label for="lt5"><span class="limg"><img src="img/rent/4.svg" alt=""></span><span class="ltext">Bob Cat</span></label>
                            </div>
                            <div class="costdel-calc__radio">
-                              <input type="radio" class="radio" id="lt6" name="loadtype" />
+                              <input type="radio" value="Quadrocycle" class="radio" id="lt6" name="loadtype" />
                               <label for="lt6"><span class="limg"><img src="img/rent/6.svg" alt=""></span><span class="ltext">Quadrocycle</span></label>
                            </div>
                            <div class="costdel-calc__radio">
-                              <input type="radio" class="radio" id="lt7" name="loadtype" />
+                              <input type="radio" value="Boat" class="radio" id="lt7" name="loadtype" />
                               <label for="lt7"><span class="limg"><img src="img/rent/8.svg" alt=""></span><span class="ltext">Boat</span></label>
                            </div>
                            <div class="costdel-calc__radio">
-                              <input type="radio" class="radio" id="lt8" name="loadtype" />
+                              <input type="radio" value="Heavy Equipment" class="radio" id="lt8" name="loadtype" />
                               <label for="lt8"><span class="limg"><img src="img/rent/10.svg" alt=""></span><span class="ltext">Heavy Equipment</span></label>
                            </div>
                         </div>
@@ -200,8 +200,8 @@
                      </div>
                      </div>
                   </div>
-                  <button class="btn btn--submit btn--general" type="submit">Reserve this Quote</button>
-                  </form>
+                  <a href="#" data-popup="#calcmodal" class="btn btn--submit btn--general fancybtn" >Reserve this Quote</a>
+                  <!-- </form> -->
                   
                
 
@@ -354,6 +354,54 @@
             <a href="#" class="link link--social"><i class="fab fa-youtube"></i></a>
          </div>
       </aside>
+
+		<div id="calcmodal" style="display:none" class="popup popup-reg popup-calcmodal">
+         <div class="popup-side">
+            <div class="popup-content">
+               <h4 class="title title--popup">
+                  YOUR QUOTE SUMMARY
+               </h4>
+               <div class="calcmodal-content">
+               <ul class="calcmodal-list">
+               	<li class="calcmodal-list__shipping">Shipping: <span>No</span></li>
+               	<li class="calcmodal-list__from">From: <span class="fr">No</span><span> / </span><span class="tw">No</span></li>
+               	<li class="calcmodal-list__to">To: <span>No</span></li>
+               	<li class="calcmodal-list__shipto">Ship to: <span class="fr">No</span><span> / </span><span class="tw">No</span></li>
+               </ul>
+               <p class="paragraph paragraph--totalpop">Total: <span>$1,480.00</span></p>
+               </div>
+               <form class="form-check" data-form="sendnormal">
+               	<input type="hidden" name="auctions">
+               	<input type="hidden" name="location">
+               	<input type="hidden" name="exifport">
+               	<input type="hidden" name="country">
+               	<input type="hidden" name="portcity">
+               	<input type="hidden" name="shiping">
+                  <div class="form-rows">
+                     <div class="form-cols">
+                        <div class="form-row">
+                           <input type="text" placeholder="Name" name="name" class="field field--general reqfield">
+                        </div>
+                        <div class="form-row">
+                           <input type="text" placeholder="Email" name="email" class="field field--general reqfield">
+                        </div>
+                        <div class="form-row">
+                           <input type="text" placeholder="Phone" name="phone" class="field field--general reqfield">
+                        </div>
+                        <div class="form-row">
+                           <!-- <input type="text" placeholder="Name" name="name" class="field field--general reqfield"> -->
+                           <textarea name="description" placeholder="Description"  class="field field--text" cols="30" rows="10"></textarea>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <button class="btn btn--submit btn--login" type="submit">Reserve this quote</button>
+               </form>
+            </div>
+         </div>
+      </div>
+
+
       <script src="https://www.youtube.com/iframe_api"></script>
       <script src=js/libs.min.js></script>
       <script src=js/main.js></script>

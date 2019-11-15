@@ -356,6 +356,7 @@
   .popup-reg .form-check .form-rows { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
   .popup-reg .form-check .form-cols + .form-cols { margin-top: 2rem; }
   .popup-reg .form-check .btn { max-width: 100%; }
+  .popup-calcmodal .popup-content .title--popup { font-size: 2.2rem; -webkit-clip-path: polygon(0 0, 85% 0%, 100% 100%, 0% 100%); clip-path: polygon(0 0, 85% 0%, 100% 100%, 0% 100%); }
   .popup-thanks .fancybox-close-small { top: 1.8rem; right: 1.5rem; }
   .popup-thanks .thanks-head .title { font-size: 3.4rem; }
   .popup-thanks .thanks-content { padding: 5rem 1.5rem; }
