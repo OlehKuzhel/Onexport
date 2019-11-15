@@ -6064,6 +6064,8 @@ p.bold { font-weight: 600; }
 
 .section-delivery .delivery-calc__radio { width: 50%; height: 4.5rem; }
 
+.section-delivery .delivery-calc__radio + .delivery-calc__radio { margin-left: 2rem; }
+
 .section-delivery .delivery-calc__radio .radio { position: absolute; z-index: -1; opacity: 0; margin: 10px 0 0 7px; }
 
 .section-delivery .delivery-calc__radio .radio + label { display: block; position: relative; padding: 0 0 0 40px; cursor: pointer; height: 100%; }
