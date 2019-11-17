@@ -73,143 +73,56 @@
             </div>
          </div>
       </header>
-      <section class="section section-costdel">
+      <section class="section section-calculator section-url">
          <div class="wrapper">
-            <div class="costdel wow fadeIn">
-               <h2 class="title title--section">Delivery cost calculator</h2>
-               <!-- <form action="any" > -->
-               <div class="costdel-calc">
-
-					<div class="costdel-calc__select">
-                     	<div class="paragraph paragraph--name">Select destination</div>
-                     	<select class="select selreq" name="auction" data-placeholder="Select auction">
-                           <option></option>
-                           <option value="auctions1">auctions1</option>
-                           <option value="auctions2">auctions</option>
-                           <option value="auctions3">auctions3</option>
-                           <option value="auctions4">auctions4</option>
+            <div class="calculator wow fadeIn">
+               <h2 class="title title--section">Calculator</h2>
+               <div class="calculator-step">
+                  <div class="calculator-step__title">
+                     <h3 class="title title--section wh">Car information</h3>
+                  </div>
+                  <div class="calculator-step__row">
+                     <div class="calculator-step__sel">
+                        <p class="paragraph paragraph--name">Url</p>
+                        <select class="select" name="url">
+                           <option value="Country 1">Country 1</option>
+                           <option value="Country 1">Country 1</option>
+                           <option value="Country 1">Country 1</option>
+                           <option value="Country 1">Country 1</option>
                         </select>
-                        <select class="select selreq" name="location" data-placeholder="Choose location">
-                           <option></option>
-                           <option value="loc1">loc1</option>
-                           <option value="loc2">loc2</option>
-                           <option value="loc3">loc3</option>
-                           <option value="loc4">loc4</option>
-                        </select>
-                        <select class="select selreq" name="port1" data-placeholder="Select exif port">
-                           <option></option>
-                           <option value="loc1">loc1</option>
-                           <option value="loc2">loc2</option>
-                           <option value="loc3">loc3</option>
-                           <option value="loc4">loc4</option>
-                        </select>
-                        <select class="select selreq" name="country" data-placeholder="Choose country">
-                           <option></option>
-                           <option value="loc1">loc1</option>
-                           <option value="loc2">loc2</option>
-                           <option value="loc3">loc3</option>
-                           <option value="loc4">loc4</option>
-                        </select>
-                        <select class="select selreq" name="port2" data-placeholder="Select Port/City">
-                           <option></option>
-                           <option value="loc1">loc1</option>
-                           <option value="loc2">loc2</option>
-                           <option value="loc3">loc3</option>
-                           <option value="loc4">loc4</option>
-                        </select>
-                     </div>
-					<div class="costdel-calc__content">
-						
-					<div class="costdel-calc__radios">
-                     <div class="costdel-calc__price">
-                        <p class="paragraph paragraph--name">Price (per one car):</p>
-                        <div class="costdel-calc__col">
-                           <div class="costdel-calc__radio">
-                              <input type="radio" value="4 cars cont. (sedan)" class="radio" id="pr1" name="vehicle_type" />
-                              <label for="pr1"><span class="limg"><img src="img/rent/1.svg" alt=""></span><span class="ltext">4 cars cont.<br>(sedan)</span></label>
-                           </div>
-                           <div class="costdel-calc__radio">
-                              <input type="radio" value="3 cars cont. (SUV)" class="radio" id="pr2" name="vehicle_type" />
-                              <label for="pr2"><span class="limg"><img src="img/rent/2.svg" alt=""></span><span class="ltext">3 cars cont. <br>(SUV)</span></label>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="costdel-calc__load">
-                        <p class="paragraph paragraph--name">Load type:</p>
-                        <div class="costdel-calc__row">
-                           <div class="costdel-calc__radio">
-                              <input type="radio" value="Medium Duty Truck" class="radio" id="lt1" name="vehicle_type" />
-                              <label for="lt1"><span class="limg"><img src="img/rent/3.svg" alt=""></span><span class="ltext">Medium Duty Truck</span></label>
-                           </div>
-                           <div class="costdel-calc__radio">
-                              <input type="radio" value="Van" class="radio" id="lt2" name="vehicle_type" />
-                              <label for="lt2"><span class="limg"><img src="img/rent/5.svg" alt=""></span><span class="ltext">Van</span></label>
-                           </div>
-                           <div class="costdel-calc__radio">
-                              <input type="radio" value="Motorcycles" class="radio" id="lt3" name="vehicle_type" />
-                              <label for="lt3"><span class="limg"><img src="img/rent/7.svg" alt=""></span><span class="ltext">Motorcycles</span></label>
-                           </div>
-                           <div class="costdel-calc__radio">
-                              <input type="radio" value="Truck" class="radio" id="lt4" name="vehicle_type" />
-                              <label for="lt4"><span class="limg"><img src="img/rent/9.svg" alt=""></span><span class="ltext">Truck</span></label>
-                           </div>
-                       </div>
-                       <div class="costdel-calc__row">
-                           <div class="costdel-calc__radio">
-                              <input type="radio" value="Bob Cat" class="radio" id="lt5" name="vehicle_type" />
-                              <label for="lt5"><span class="limg"><img src="img/rent/4.svg" alt=""></span><span class="ltext">Bob Cat</span></label>
-                           </div>
-                           <div class="costdel-calc__radio">
-                              <input type="radio" value="Quadrocycle" class="radio" id="lt6" name="vehicle_type" />
-                              <label for="lt6"><span class="limg"><img src="img/rent/6.svg" alt=""></span><span class="ltext">Quadrocycle</span></label>
-                           </div>
-                           <div class="costdel-calc__radio">
-                              <input type="radio" value="Boat" class="radio" id="lt7" name="loadtype" />
-                              <label for="lt7"><span class="limg"><img src="img/rent/8.svg" alt=""></span><span class="ltext">Boat</span></label>
-                           </div>
-                           <div class="costdel-calc__radio">
-                              <input type="radio" value="Heavy Equipment" class="radio" id="lt8" name="loadtype" />
-                              <label for="lt8"><span class="limg"><img src="img/rent/10.svg" alt=""></span><span class="ltext">Heavy Equipment</span></label>
-                           </div>
-                        </div>
-                     </div>
-					</div>
-					<p class="paragraph paragraph--cost">
-						Commercial vans, including Sprinters, Ford Transit, and any other van that is able to carry a large number of passengers or a greater load than a standard passenger van. Price is based on a 24 foot, 5,050 pound Sprinter cargo van with a standard.
-					</p>
-                     <div class="costdel-calc__total">
-                     	<div class="costdel-calc__total-side">
-                        <p class="paragraph paragraph--total">
-                           Ground rate:
-                        </p>
-                        <p class="amount">$800</p>
-                     	</div>
-                     	<div class="costdel-calc__total-side">
-                        <p class="paragraph paragraph--total">
-                           Ocean rates:
-                        </p>
-                        <p class="amount">$800</p>
-                     	</div>
-                     	<div class="costdel-calc__total-side">
-                        <p class="paragraph paragraph--total">
-                           Total:
-                        </p>
-                        <p class="amount">$1200</p>
-                     	</div>
-                        
-                     </div>
                      </div>
                   </div>
-                  <a href="#" data-popup="#calcmodal" class="btn btn--submit btn--general fancybtn" >Reserve this Quote</a>
-                  <!-- </form> -->
-                  
-               
-
+                  <div class="calculator-step__info">
+                     <div class="calculator-step__side">
+                        <p class="paragraph paragraph--left">Car location:</p>
+                        <p class="paragraph paragraph--right">New Orlean</p>
+                     </div>
+                     <div class="calculator-step__side">
+                        <p class="paragraph paragraph--left">Newest port:</p>
+                        <p class="paragraph paragraph--right">Odessa</p>
+                     </div>
+                     <div class="calculator-step__side">
+                        <p class="paragraph paragraph--left">Country:</p>
+                        <p class="paragraph paragraph--right">Ukraine</p>
+                     </div>
+                     <div class="calculator-step__side">
+                        <p class="paragraph paragraph--left">Car type:</p>
+                        <p class="paragraph paragraph--right">Sedan</p>
+                     </div>
+                  </div>
+                  <div class="calculator-step__price">
+                     <p class="paragraph paragraph--name">
+                        Price
+                     </p>
+                     <p class="paragraph paragraph--price">
+                        $ 6,800
+                     </p>
+                  </div>
+               </div>
+               <div class="calculator-map">
+                  <iframe src="https://snazzymaps.com/embed/190485" width="100%" height="100%" style="border:none;"></iframe>
+               </div>
             </div>
-         </div>
-         <div class="costdel-map">
-         	<iframe src="https://snazzymaps.com/embed/190485" width="100%" height="420px" style="border:none;"></iframe>
-
          </div>
       </section>
       <footer class="section section-footer">
@@ -354,54 +267,6 @@
             <a href="#" class="link link--social"><i class="fab fa-youtube"></i></a>
          </div>
       </aside>
-
-		<div id="calcmodal" style="display:none" class="popup popup-reg popup-calcmodal">
-         <div class="popup-side">
-            <div class="popup-content">
-               <h4 class="title title--popup">
-                  YOUR QUOTE SUMMARY
-               </h4>
-               <div class="calcmodal-content">
-               <ul class="calcmodal-list">
-               	<li class="calcmodal-list__shipping">Shipping: <span>No</span></li>
-               	<li class="calcmodal-list__from">From: <span class="fr">No</span><span> / </span><span class="tw">No</span></li>
-               	<li class="calcmodal-list__to">To: <span>No</span></li>
-               	<li class="calcmodal-list__shipto">Ship to: <span class="fr">No</span><span> / </span><span class="tw">No</span></li>
-               </ul>
-               <p class="paragraph paragraph--totalpop">Total: <span>$1,480.00</span></p>
-               </div>
-               <form class="form-check" data-form="sendnormal">
-               	<input type="hidden" name="auctions">
-               	<input type="hidden" name="selected_location">
-               	<input type="hidden" name="exifport">
-               	<input type="hidden" name="selected_country">
-               	<input type="hidden" name="portcity">
-               	<input type="hidden" name="shiping">
-                  <div class="form-rows">
-                     <div class="form-cols">
-                        <div class="form-row">
-                           <input type="text" placeholder="Name" name="name" class="field field--general reqfield">
-                        </div>
-                        <div class="form-row">
-                           <input type="text" placeholder="Email" name="email" class="field field--general reqfield">
-                        </div>
-                        <div class="form-row">
-                           <input type="text" placeholder="Phone" name="phone" class="field field--general reqfield">
-                        </div>
-                        <div class="form-row">
-                           <!-- <input type="text" placeholder="Name" name="name" class="field field--general reqfield"> -->
-                           <textarea name="description" placeholder="Description"  class="field field--text" cols="30" rows="10"></textarea>
-                        </div>
-                     </div>
-                  </div>
-                  
-                  <button class="btn btn--submit btn--login disabled" type="submit">Reserve this quote</button>
-               </form>
-            </div>
-         </div>
-      </div>
-
-
       <script src="https://www.youtube.com/iframe_api"></script>
       <script src=js/libs.min.js></script>
       <script src=js/main.js></script>

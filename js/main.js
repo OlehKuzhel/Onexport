@@ -708,12 +708,10 @@ $(document).ready(function($) {
         var sizeEmpty = form.find('.empty_field').length;
         if (sizeEmpty > 0) {
             if ($(this).hasClass('disabled')) {
-                // $('body,html').animate({scrollTop:0},800)
                 lightEmpty(form);
                 return false
             } else {
                 $(this).addClass('disabled')
-                    // $('body,html').animate({scrollTop:0},800)
                 lightEmpty(form);
                 return false
             }
@@ -857,6 +855,22 @@ $(document).ready(function($) {
         $('#calcmodal input[name=portcity]').val($val)
                 
     });
+
+
+    // $('auctions')
+    // $('selected_location')
+    // $('exifport')
+    // $('selected_country')
+    // $('portcity')
+    // $('shiping')
+
+    // $allSelect = $('.costdel-calc__select').find('.selreq');
+    // $('.selreq').on('change', function(){
+        // $selVal = $(this).find('.jq-selectbox__select-text').text();
+        // console.log($selVal)
+        // if ($allSelect)
+        // $(this).removeClass('class name')
+    // })
 
 
 

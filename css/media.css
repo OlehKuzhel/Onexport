@@ -297,6 +297,14 @@
   .section-faq .faq-items { padding-top: 3rem; }
   .section-faq .faq-item h3 { font-size: 1.8rem; line-height: 2.2rem; }
   .section-faq .faq .title--section { text-align: center; }
+  .section-calculator { padding-top: 6rem; padding-bottom: 6rem; min-height: 80vh; }
+  .section-calculator .calculator-map { margin-top: 3rem; height: 40rem; }
+  .section-calculator .calculator-step { max-width: 100%; }
+  .section-calculator .calculator-step__title:after { width: 90%; }
+  .section-calculator .calculator-step__sel { max-width: 100%; margin-bottom: 2rem; }
+  .section-calculator .calculator-step__sel:last-child { margin-bottom: 0; }
+  .section-calculator .calculator-step__row { margin-bottom: 6rem; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
+  .section-url .calculator-step__row { margin-bottom: 1.5rem; }
   .section-newssingle { padding-top: 6rem; padding-bottom: 6rem; }
   .section-newssingle .newssingle .title--sub { font-size: 1.8rem; line-height: 2.2rem; }
   .section-newssingle .newssingle .title--section { text-align: center; line-height: 2.9rem; }
