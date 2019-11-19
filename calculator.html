@@ -77,15 +77,15 @@
          <div class="wrapper">
             <div class="calculator wow fadeIn">
                <h2 class="title title--section">Calculator</h2>
-               <div class="calculator-step">
+               <div class="calculator-step" data-tab="step1"> 
                   <div class="calculator-step__title">
-                     <h3 class="title title--section wh">Where to carry?</h3>
+                     <h3 class="title title--section ">Where to carry?</h3>
                   </div>
-                  <form action="any.php">
                   <div class="calculator-step__row">
                      <div class="calculator-step__sel">
                         <p class="paragraph paragraph--name">Country</p>
-                        <select class="select" name="country">
+                        <select class="select" name="country" data-placeholder="Choose country">
+                           <option></option>
                            <option value="Country 1">Country 1</option>
                            <option value="Country 1">Country 1</option>
                            <option value="Country 1">Country 1</option>
@@ -94,19 +94,71 @@
                      </div>
                      <div class="calculator-step__sel">
                         <p class="paragraph paragraph--name">Port</p>
-                        <select class="select" name="port">
+                        <select class="select" name="port" data-placeholder="Choose port/city">
+                           <option></option>
                            <option value="loc1">loc1</option>
                            <option value="loc2">loc2</option>
                            <option value="loc3">loc3</option>
                            <option value="loc4">loc4</option>
                         </select>
                      </div>
+                     <a href="#" data-step="step2" class="btn btn--submit btn--general btn--nextstep">Next</a>
                   </div>
-                  <button type="submit" class="btn btn--submit btn--general">Next</button>
-                  </form>
                </div>
+               <div class="calculator-step" data-tab="step2">
+                  <div class="calculator-step__title">
+                     <h3 class="title title--section ">Car information</h3>
+                  </div>
+                  <form action="any">
+                  <div class="calculator-step__row">
+                     
+                     <div class="calculator-step__sel one">
+                        <p class="paragraph paragraph--name">Url</p>
+                        <input type="text" name="url" placeholder="Link to your car" class="field field--general">
+                     </div>
+                     <button type="submit" class="btn btn--submit btn--general">apply</button>
+                     
+                  </div>
+                  </form>
+                  <div class="calculator-step__content">
+                     <div class="calculator-step__info">
+                     <div class="calculator-step__side">
+                        <p class="paragraph paragraph--left">Car location:</p>
+                        <p class="paragraph paragraph--right">New Orlean</p>
+                     </div>
+                     <div class="calculator-step__side">
+                        <p class="paragraph paragraph--left">Newest port:</p>
+                        <p class="paragraph paragraph--right">Odessa</p>
+                     </div>
+                     <div class="calculator-step__side">
+                        <p class="paragraph paragraph--left">Country:</p>
+                        <p class="paragraph paragraph--right">Ukraine</p>
+                     </div>
+                     <div class="calculator-step__side">
+                        <p class="paragraph paragraph--left">Car type:</p>
+                        <p class="paragraph paragraph--right">Sedan</p>
+                     </div>
+                  </div>
+                  <div class="calculator-step__price">
+                     <p class="paragraph paragraph--name">
+                        Price
+                     </p>
+                     <p class="paragraph paragraph--price">
+                        $ 6,800
+                     </p>
+                  </div>
+                  </div>
+                  
+               </div>
+               
             </div>
          </div>
+
+      </section>
+      <section class="section section-calcmap">
+         <div class="calculator-map">
+                  <iframe src="https://snazzymaps.com/embed/190485" width="100%" height="100%" style="border:none;"></iframe>
+               </div>
       </section>
       <footer class="section section-footer">
          <div class="wrapper">

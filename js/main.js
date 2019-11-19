@@ -872,6 +872,15 @@ $(document).ready(function($) {
         // $(this).removeClass('class name')
     // })
 
+    $('.btn--nextstep').on('click', function(event) {
+        event.preventDefault();
+        // $('[data-tab="step1"]').addClass('animated fadeOut');
+        $('[data-tab="step1"]').fadeOut('400', function() {
+            $('[data-tab="step2"]').fadeIn()
+            $('.section-calcmap').slideDown('400');
+        });
+    });
+
 
 
 });
