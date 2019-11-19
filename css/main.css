@@ -6018,6 +6018,12 @@ p.bold { font-weight: 600; }
 
 .section-delivery .delivery .title--section { margin: 0 auto; }
 
+.section-delivery .delivery-btn { margin-top: 4rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+
+.section-delivery .delivery-btn .btn { margin: 0; }
+
+.section-delivery .delivery-btn .btn + .btn { margin-left: 3rem; }
+
 .section-delivery .delivery-abs { position: absolute; bottom: 0; left: 50%; -webkit-transform: translate(-50%, 70%); -ms-transform: translate(-50%, 70%); transform: translate(-50%, 70%); width: 24rem; height: 5.8rem; }
 
 .section-delivery .delivery-bg { padding-bottom: 6rem; }
@@ -6068,7 +6074,7 @@ p.bold { font-weight: 600; }
 
 .section-delivery .delivery-calc__radio .radio { position: absolute; z-index: -1; opacity: 0; margin: 10px 0 0 7px; }
 
-.section-delivery .delivery-calc__radio .radio + label { display: block; position: relative; padding: 0 0 0 40px; cursor: pointer; height: 100%; }
+.section-delivery .delivery-calc__radio .radio + label { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; position: relative; padding: 0 0 0 40px; cursor: pointer; height: 100%; }
 
 .section-delivery .delivery-calc__radio .radio + label img { max-width: 100%; width: auto; max-height: 100%; height: auto; -o-object-fit: contain; object-fit: contain; }
 
@@ -6436,15 +6442,17 @@ p.bold { font-weight: 600; }
 
 .section-calculator .calculator-step__info { max-width: 35rem; width: 100%; margin-bottom: 3rem; }
 
-.section-calculator .calculator-step__side { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+.section-calculator .calculator-step__side { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; margin-bottom: 1.5rem; }
 
-.section-calculator .calculator-step__side .paragraph { font-size: 1.4rem; line-height: 2.8rem; }
+.section-calculator .calculator-step__side:last-child { margin-bottom: 0; }
 
-.section-calculator .calculator-step__side .paragraph--left { text-align: right; width: 8.2rem; margin-right: 1.5rem; }
+.section-calculator .calculator-step__side .paragraph { font-size: 1.4rem; line-height: 1.8rem; }
 
-.section-calculator .calculator-step__side .paragraph--right { width: 8.2rem; margin-left: 1.5rem; font-weight: 700; }
+.section-calculator .calculator-step__side .paragraph--left { text-align: right; width: 12rem; margin-right: 1.5rem; }
 
-.section-calculator .calculator-step__content { padding: 2rem; background: #FFFFFF; border: 1px solid #BC2525; -webkit-box-shadow: 0px 0px 50px rgba(188, 37, 37, 0.2); box-shadow: 0px 0px 50px rgba(188, 37, 37, 0.2); max-width: 26rem; width: 100%; margin: 0 auto; }
+.section-calculator .calculator-step__side .paragraph--right { width: 12rem; margin-left: 1.5rem; font-weight: 700; }
+
+.section-calculator .calculator-step__content { padding: 2rem; background: #FFFFFF; border: 1px solid #BC2525; -webkit-box-shadow: 0px 0px 50px rgba(188, 37, 37, 0.2); box-shadow: 0px 0px 50px rgba(188, 37, 37, 0.2); max-width: 30rem; width: 100%; margin: 0 auto; }
 
 .section-calculator .calculator-step__price { max-width: 16rem; width: 100%; margin: 0 auto; }
 

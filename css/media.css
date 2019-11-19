@@ -106,6 +106,9 @@
   .section-how .how-content__video .video-hover__circle.lit { width: -webkit-calc(200px + 40px); width: calc(200px + 40px); height: -webkit-calc(200px + 40px); height: calc(200px + 40px); }
   .section-delivery { background: transparent; }
   .section-delivery .delivery { -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); padding: 1rem; }
+  .section-delivery .delivery-btn { -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
+  .section-delivery .delivery-btn .btn { max-width: 100%; width: 100%; }
+  .section-delivery .delivery-btn .btn + .btn { margin-top: 1.5rem; margin-left: 0; }
   .section-delivery .delivery-abs { display: none; }
   .section-delivery .delivery-calc { margin-top: 2.5rem; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
   .section-delivery .delivery-calc__radio { height: 3rem; }
